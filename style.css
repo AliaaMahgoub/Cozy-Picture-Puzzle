@@ -1,0 +1,41 @@
+html, body {
+  text-align:center;
+  background-color:#c3d1de;
+  font-family:Verdana;
+}
+
+img {
+  width:100%;
+}
+
+button {
+  background-color:#d6ecff;
+  color:#586989;
+  border-style:none;
+  margin:0px;
+}
+
+button:hover {
+  background-color: white;
+}
+
+button:active {
+  background-color: #c5ccd8;
+}
+
+h1 {
+  margin:0px;
+  margin-bottom: 1%;
+  color:#344056;
+  font-size:300%;
+}
+
+.puzzle {
+  display: grid;
+  margin-left: 30%;
+  margin-right: 30%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 0.5%;
+  justify-content:center;
+}
